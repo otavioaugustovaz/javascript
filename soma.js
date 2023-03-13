@@ -39,3 +39,13 @@ let somaValores = (primeiroValor + segundoValor);
 alert('A soma dos valores inteiros é: ' + somaValores);
 
 alert('A soma de ' + primeiroValor + ' e de ' + segundoValor + ' é de : ' + somaValores);
+
+
+let digiteNota1 = prompt('Digite sua primeira nota:');
+digiteNota1 = parseInt(digiteNota1);
+
+var digiteNota2 = prompt('Digite sua outra nota');
+digiteNota2 = parseInt(digiteNota2);
+
+let somaNotas = (digiteNota1 + digiteNota2);
+alert('A soma de ' + digiteNota1 + ' e a nota ' + digiteNota2+ ' é: ' + somaNotas);

@@ -5,3 +5,6 @@ console.log(nome[0]);
 
 let idade = [20 , 51, 49];
 console.log[2];
+
+let nomeProgramador = ['Guilherme Lima', 'Rafa balerini', 'Paulo Silveira'];
+console.log(nomeProgramador[1]);

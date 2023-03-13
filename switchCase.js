@@ -40,3 +40,21 @@ switch(resultadoProva){
         console.log('Usuáŕio não encontrado');
 
 }
+
+
+let resultadoAno;
+resultadoProva = 8;
+
+switch(resultadoProva){
+    case 4:
+    console.log('Reprovado')
+
+    case 3:
+    console.log(Reprovado);
+
+    case 8:
+    console.log('Aprovado')
+
+    default:
+    console.log('Não encontramos sua nota no sistema.')
+} 

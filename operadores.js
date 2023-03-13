@@ -22,6 +22,9 @@ let tipo = dinheiro > 500 ? 'Caro' : 'Barato';
 console.log(tipo);
 
 
+let dinheiroIngresso = 200;
+let valor = dinheiroIngresso > 300 ? 'Barato' : 'Caro';
+console.log(valor);
 
 
 

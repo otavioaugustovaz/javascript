@@ -13,7 +13,6 @@ else{
 
 
 
-
 let horaTrabalhar = 20;
 
 if (horaTrabalhar > 06 && horaTrabalhar < 12){
@@ -23,4 +22,17 @@ else if (horaTrabalhar > 12 && horaTrabalhar < 18){
     console.log('Boa tarde o trabalho já está encerrando!');
 } else{
     console.log('Hora de ir para a casa!');
+}
+
+
+
+let periodoDiario = 07;
+
+if (periodoDiario > 06 && periodoDiario < 12){
+    console.log('Estamos no periodo da manhã!')
+}
+else if (periodoDiario > 12 && periodoDiario < 18){
+    console.log('Estamos no periodo da tarde!')
+}else{
+    console.log('Estamos no periodo da noite!')
 }

@@ -11,7 +11,14 @@ let dadosPessoais = 'otavio';
  console.log(dadosPessoais);
 
 
+let infOtavio = 'Programador';
+function trocaDados (profissao, idade, tempo){
+    infOtavio = profissao + idade + tempo;
+}
 
+console.log(infOtavio);
+trocaDados('Programador Junior ', '20 Anos ', 'e 1 ano de profissão!')
+console.log(infOtavio);
 
 //-TIPOS DE FUNÇÕES
 //Realiza uma tarefa e não devolve nada...
@@ -28,6 +35,8 @@ function multiplicarPorCinco(valor){
 let resultado = multiplicarPorCinco(6);
 
 console.log(resultado);
+
+
 
 
   
