@@ -49,3 +49,5 @@ digiteNota2 = parseInt(digiteNota2);
 
 let somaNotas = (digiteNota1 + digiteNota2);
 alert('A soma de ' + digiteNota1 + ' e a nota ' + digiteNota2+ ' é: ' + somaNotas);
+
+
