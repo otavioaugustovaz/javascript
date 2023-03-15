@@ -1,22 +1,10 @@
 //-COMPARAÇÕES NÃO BOLEANOS
-let corInicio = '';
-let corSegunda = 'azul';
-let corpadrao = corInicio || corSegunda;
-console.log(corpadrao);
+let financiaCarro = '';
+let valorFinanciado = '20.000';
+let aprovacaoBanco = financiaCarro || valorFinanciado;
+console.log(aprovacaoBanco);
 
-
-
-//-TROCANDO VALOR(MINI PROJETO)
-let corPrincipal = 'azul';
-let corSecundaria = 'preto';
-let corPadrao = corPrincipal;
-corPrincipal= corSecundaria;
-corSecundaria = corPadrao;
-console.log(corPrincipal);
-console.log(corSecundaria);
-
-let nomePrimeiro = '';
-let nomeSegundo = 'Augusto';
-let comparacao = nomePrimeiro || nomeSegundo;
-console.log(comparacao);
-
+let notaAprovada = 5;
+let notaReprovada = 4;
+let resultadoProva = notaAprovada && notaReprovada;
+console.log(resultadoProva);

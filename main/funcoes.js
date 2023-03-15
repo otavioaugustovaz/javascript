@@ -37,6 +37,14 @@ let resultado = multiplicarPorCinco(6);
 console.log(resultado);
 
 
+let financiaCarro = 'Civic';
+function aprovaFinanciamento(Carro, Preço, Ano){
+    financiaCarro = Carro + Preço + Ano;
+}
+console.log(financiaCarro);
+aprovaFinanciamento('Corolla', ' 59.900,00', ' 2015');
+console.log(financiaCarro);
+
 
 
   

@@ -1,10 +1,10 @@
 //-ARRAYS(CONJUNTO DE DADOS QUE PODE SER ACESSADO POR UM INDEX)
 
-let nome = ['otavio',21,34];
-console.log(nome[0]);
+let nomeCarros = ['Civic', 'Corolla', 'Hrv', 'Veloster'];
+console.log(nomeCarros[0]);
 
-let idade = [20 , 51, 49];
-console.log[2];
+let nomeAmigos = ['Felipe Martins', 'João Augusto'];
+console.log(nomeAmigos[0]);
 
-let nomeProgramador = ['Guilherme Lima', 'Rafa balerini', 'Paulo Silveira'];
-console.log(nomeProgramador[1]);
+let nomeProgramadores = ['Rafa Balerinni', 'Guilherme Lima', 'Programador BR', 'Lucas Montano'];
+console.log(nomeProgramadores[0]);

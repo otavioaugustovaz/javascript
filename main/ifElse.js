@@ -36,3 +36,15 @@ else if (periodoDiario > 12 && periodoDiario < 18){
 }else{
     console.log('Estamos no periodo da noite!')
 }
+
+
+let financiaCarro = 10.000;
+if (financiaCarro > 8.500 && financiaCarro < 15.000){
+    console.log('Está Aprovado o Carro para o financiamento!')
+} 
+else if (financiaCarro > 5.000 && financiaCarro > 8.000){
+    console.log('Carro não aprovado para o financiamento!');
+}
+else{
+    console.log('Não encontramos seu crédito, tente novamente!')
+}
