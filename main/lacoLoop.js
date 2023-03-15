@@ -14,22 +14,32 @@ for (let i = 0; i < 4; i++) {
 }
 
 
+
+
 for (u = 0; u < 2; u++){
     console.log('Estou estudando pela Udemy!')
 }
+
+
 
 
 for (let horario = 0; horario < 10; horario++){
     console.log('Estamos no estudo do Java Script!')
 }
 
+
+
 for (let chamadosFila = 0; chamadosFila < 8; chamadosFila++){
     console.log('Atenção Pedro você é o proximo da fila!')
 }
 
+
+
 for (let provaCorrecao = 0; provaCorrecao < 5; provaCorrecao++){
     console.log('Você passou de ano, meus parabéns!')
 }
+
+
 
 var calculadora = prompt('Digite um numero:');
     calculadora = parseFloat(calculadora);
