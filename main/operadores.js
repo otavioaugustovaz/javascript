@@ -58,5 +58,18 @@ if(media > 5){
     alert('Desculpe, mas não foi dessa vez');
 }
 
- 
+
+var valor1 = prompt('Digite um valor:');
+var valor2 = prompt('Digite outro valor');
+valor1 = parseFloat(valor1);
+valor2 = parseFloat(valor2);
+
+var mediaValor = ( valor1 + valor2);
+alert(media > 6);
+
+if(media > 6){
+    alert('Parabéns você foi aprovado!');
+} else {
+    alert('Não foi dessa vez!');
+}
 

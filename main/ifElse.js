@@ -38,7 +38,7 @@ else if (periodoDiario > 12 && periodoDiario < 18){
 }
 
 
-let financiaCarro = 10.000;
+let financiaCarro = 6.000;
 if (financiaCarro > 8.500 && financiaCarro < 15.000){
     console.log('Está Aprovado o Carro para o financiamento!')
 } 
@@ -47,4 +47,18 @@ else if (financiaCarro > 5.000 && financiaCarro > 8.000){
 }
 else{
     console.log('Não encontramos seu crédito, tente novamente!')
+}
+
+
+
+
+let financiaCasa = 10;
+if (financiaCasa > 06 && financiaCasa < 12){
+    console.log('Está Aprovado sua casa!')
+}
+else if(financiaCasa > 01 && financiaCasa < 05){
+    console.log('Infelizmente não conseguimos financia seu crédito!')
+}
+else{
+    console.log('Não encontramos seu cadastro em nosso sistema!');
 }

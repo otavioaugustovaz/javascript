@@ -92,3 +92,24 @@
 
     }
       
+
+    let financiaCasa = prompt('Digite o valor da entrada');
+    financiaCasa = parseFloat(financiaCasa);
+
+    switch (financiaCasa){
+        case 500:
+        alert('Crédito reprovado!')
+        break;
+
+        case 900:
+        alert('Crédito insuficiente!');
+        break
+
+        case 1000:
+        alert('Financiamento aprovado pelo banco!');
+        break
+
+        defaut:
+        alert('Cadastro não encontrado!');
+    }
+

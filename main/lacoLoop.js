@@ -81,3 +81,12 @@ while(ano <= 2050){
     document.write(ano + '<br>');
     ano += 4;
 }
+
+
+for (let i = 0; i < 12; i++){
+    console.log('Estou estudando na Universidade Anhanguera educacional!');
+}
+
+for (let i = 0; i < 4; i++){
+    console.log('Olá Mundo!')
+}

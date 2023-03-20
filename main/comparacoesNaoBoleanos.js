@@ -8,3 +8,8 @@ let notaAprovada = 5;
 let notaReprovada = 4;
 let resultadoProva = notaAprovada && notaReprovada;
 console.log(resultadoProva);
+
+let recebimentoCheque = 100;
+let recebimentoPix = 50;
+let somaValores = recebimentoCheque && recebimentoPix;
+console.log(somaValores);

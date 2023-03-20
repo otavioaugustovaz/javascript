@@ -51,3 +51,10 @@ let somaNotas = (digiteNota1 + digiteNota2);
 alert('A soma de ' + digiteNota1 + ' e a nota ' + digiteNota2+ ' é: ' + somaNotas);
 
 
+let valor1 = prompt('Digite um valor:');
+let valor2 = prompt('Digite outro valor:');
+valor1 = parseFloat(valor1);
+valor2 = parseFloat(valor2);
+let somaValor = (valor1 + valor2);
+
+alert('A soma de ' + valor1 + ' + ' + valor2 + ' é exatamente ' + somaValor );

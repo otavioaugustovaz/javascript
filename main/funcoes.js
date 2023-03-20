@@ -11,6 +11,8 @@ let dadosPessoais = 'otavio';
  console.log(dadosPessoais);
 
 
+
+
 let infOtavio = 'Programador';
 function trocaDados (profissao, idade, tempo){
     infOtavio = profissao + idade + tempo;
@@ -28,6 +30,9 @@ function dizerNome(){
 };
 dizerNome();
 
+
+
+
 function multiplicarPorCinco(valor){
     return valor* 5
 };
@@ -37,14 +42,24 @@ let resultado = multiplicarPorCinco(6);
 console.log(resultado);
 
 
+
+
 let financiaCarro = 'Civic';
 function aprovaFinanciamento(Carro, Preço, Ano){
     financiaCarro = Carro + Preço + Ano;
 }
 console.log(financiaCarro);
-aprovaFinanciamento('Corolla', ' 59.900,00', ' 2015');
+aprovaFinanciamento('Civic', ' 59.900,00', ' 2015');
 console.log(financiaCarro);
 
+
+let orcamentoCasa = 'Apartamento';
+function aprovaOrcamento(Casa, Local, Valor){
+    orcamentoCasa = Casa + Local + Valor;
+}
+console.log(orcamentoCasa);
+aprovaOrcamento('Apartamento', ' Centro', ' 250.000,00');
+console.log(orcamentoCasa);
 
 
   
