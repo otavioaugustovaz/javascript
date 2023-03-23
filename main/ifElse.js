@@ -56,7 +56,7 @@ let financiaCasa = 10;
 if (financiaCasa > 06 && financiaCasa < 12){
     console.log('Está Aprovado sua casa!')
 }
-else if(financiaCasa > 01 && financiaCasa < 05){
+else if(financiaCasa > 01 && financiaCasa < 40){
     console.log('Infelizmente não conseguimos financia seu crédito!')
 }
 else{

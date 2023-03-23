@@ -43,20 +43,20 @@
 
 
     let resultadoAno;
-    resultadoProva = 8;
+    resultadoProva = 9;
 
     switch(resultadoProva){
     case 4:
-    console.log('Reprovado')
+    console.log('Reprovado');
 
     case 3:
     console.log(Reprovado);
 
     case 8:
-    console.log('Aprovado')
+    console.log('Aprovado');
 
     default:
-    console.log('Não encontramos sua nota no sistema.')
+    console.log('Não encontramos sua nota no sistema.');
     } 
 
     var digiteNumero = prompt('Digite um numero de 1 a 6')
